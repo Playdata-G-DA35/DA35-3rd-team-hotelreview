@@ -36,7 +36,8 @@
 
 ## 데이터 로딩 및 사용
 - 변환된 데이터는 텍스트 파일로 저장되어 있으며, 필요한 경우 로딩하여 사용할 수 있습니다.
-'''
+
+```
 with open('scrap_data/{숙소 이름}/nouns_and_verbs.txt', 'r', encoding='utf-8') as file:
     data = file.read()
-'''
+```
